@@ -9,6 +9,7 @@ group :development, :test do
  gem 'sqlite3'
  gem 'rspec-rails'
  
+ 
 end
 #the above code will use the sqlite3 gem for development
 
