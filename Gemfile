@@ -39,6 +39,11 @@ end
 
 gem 'jquery-rails'
 
+#we don't have to use the lines of code below for Ubuntu 13.04
+gem 'execjs'
+gem 'therubyracer'
+
+
 
 
 

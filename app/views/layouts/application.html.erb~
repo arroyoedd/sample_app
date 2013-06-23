@@ -4,7 +4,7 @@
   
   
   
-  <title>Ruby on Rails Tutorial Sample<%= yield(:title)%> </title>
+  <title>Ruby on Rails Tutorial Sample </title>
    
    <!--
    Let's talk about the above statementyield brings

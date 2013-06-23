@@ -1,0 +1,2447 @@
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-06-17 21:59:47 -0500
+Served asset /rails.png - 304 Not Modified (12ms)
+
+
+Started GET "/hello.html" for 127.0.0.1 at 2013-06-17 22:00:20 -0500
+
+ActionController::RoutingError (No route matches [GET] "/hello.html"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.5ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/staticpages/home" for 127.0.0.1 at 2013-06-18 22:49:37 -0500
+
+ActionController::RoutingError (No route matches [GET] "/staticpages/home"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-06-18 22:50:15 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-18 22:50:52 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Compiled static_pages.css  (45ms)  (pid 15985)
+Compiled application.css  (58ms)  (pid 15985)
+Compiled jquery.js  (3ms)  (pid 15985)
+Compiled jquery_ujs.js  (0ms)  (pid 15985)
+Compiled static_pages.js  (613ms)  (pid 15985)
+Compiled application.js  (687ms)  (pid 15985)
+Completed 200 OK in 895ms (Views: 894.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-18 22:50:53 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-18 22:50:53 -0500
+Served asset /static_pages.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-18 22:50:53 -0500
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-18 22:50:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-18 22:50:53 -0500
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-18 22:50:53 -0500
+Served asset /application.js - 304 Not Modified (14ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-18 23:55:48 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-18 23:55:48 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-18 23:55:48 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-18 23:55:48 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-18 23:55:48 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-18 23:55:48 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-18 23:55:48 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-18 23:56:40 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-18 23:56:40 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-18 23:56:40 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-18 23:56:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-18 23:56:40 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-18 23:56:40 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-18 23:56:40 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-18 23:59:46 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-18 23:59:47 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-18 23:59:47 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-18 23:59:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-18 23:59:47 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-18 23:59:47 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-18 23:59:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-19 00:09:52 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-19 00:09:52 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-19 00:09:52 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-19 00:09:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-19 00:09:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-19 00:09:52 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-19 00:09:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-19 00:30:31 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-19 00:30:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-19 00:30:31 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-19 00:30:31 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-19 00:30:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-19 00:30:31 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-19 00:30:31 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-06-19 20:38:11 -0500
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-19 20:38:11 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-19 20:38:11 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-19 20:38:11 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-19 20:38:11 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-19 20:38:12 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-19 20:38:12 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-06-19 20:51:57 -0500
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-19 20:51:57 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-19 20:51:57 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-19 20:51:57 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-19 20:51:57 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-19 20:51:57 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-19 20:51:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-20 06:05:32 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb (0.6ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-21 22:23:53 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-21 22:23:53 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-21 22:23:53 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-21 22:23:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-21 22:23:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-21 22:23:53 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-21 22:23:53 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages" for 127.0.0.1 at 2013-06-21 22:24:40 -0500
+
+ActionController::RoutingError (No route matches [GET] "/static_pages"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-06-21 22:24:47 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-21 22:25:05 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-21 22:25:05 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-21 22:25:05 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-21 22:25:05 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-21 22:25:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-21 22:25:05 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-21 22:25:05 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-21 22:26:02 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-21 22:26:02 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-21 22:26:02 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-21 22:26:02 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-21 22:26:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-21 22:26:02 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-21 22:26:02 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-21 22:46:04 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (undefined local variable or method `code' for #<#<Class:0x99becc8>:0xb56daf00>):
+    2: <html>
+    3: <head>
+    4:   <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+    5:   <!-- Let's talk about the above statement <%=outputs ruby code%> yield brings
+    6:    in hash title from the current page relies on the definition of the page title
+    7:    -->
+    8:   <h1>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></h1>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__717861458__625534268'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.7ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-22 15:34:01 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `code' for #<#<Class:0x99becc8>:0x95ebdd0>):
+    2: <html>
+    3: <head>
+    4:   <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+    5:   <!-- Let's talk about the above statement <%=outputs ruby code%> yield brings
+    6:    in hash title from the current page relies on the definition of the page title
+    7:    -->
+    8:   <h1>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></h1>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__717861458__625534268'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.8ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-22 16:31:09 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined local variable or method `code' for #<#<Class:0x99becc8>:0x9debd00>):
+    2: <html>
+    3: <head>
+    4:   <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+    5:   <!-- Let's talk about the above statement <%=outputs ruby code%> yield brings
+    6:    in hash title from the current page relies on the definition of the page title
+    7:    -->
+    8:   <h1>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></h1>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__717861458__625534268'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (40.7ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2013-06-22 18:32:20 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `code' for #<#<Class:0x9470000>:0x9b81b3c>):
+    2: <html>
+    3: <head>
+    4:   <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+    5:   <!-- Let's talk about the above statement <%=outputs ruby code%> yield brings
+    6:    in hash title from the current page relies on the definition of the page title
+    7:    -->
+    8:   <h1>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></h1>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__717861458__625534268'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2013-06-22 18:34:06 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `code' for #<#<Class:0x9470000>:0x96b142c>):
+    6:   
+    7:   <title>Ruby on Rails Tutorial Sample <?<!--/title>
+    8:   <!--App | <%= yield(:title) %></title>
+    9:    Let's talk about the above statement <%=outputs ruby code%> yield brings
+    10:    in hash title from the current page relies on the definition of the page title
+    11:    -->
+    12:   
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__717861458_80507500'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2013-06-22 18:34:48 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (undefined local variable or method `code' for #<#<Class:0x9470000>:0xb51bc370>):
+    6:   
+    7:   <title>Ruby on Rails Tutorial Sample</title>
+    8:   <!--App | <%= yield(:title) %></title>
+    9:    Let's talk about the above statement <%=outputs ruby code%> yield brings
+    10:    in hash title from the current page relies on the definition of the page title
+    11:    -->
+    12:   
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__717861458__628239048'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.8ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2013-06-22 18:35:38 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined local variable or method `code' for #<#<Class:0x9470000>:0x9a2903c>):
+    7:   <title>Ruby on Rails Tutorial Sample</title>
+    8:    
+    9:    <!--
+    10:    Let's talk about the above statement <%=outputs ruby code%> yield brings
+    11:    in hash title from the current page relies on the definition of the page title
+    12:    -->
+    13:   
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__717861458_80827500'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2013-06-22 18:36:08 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 18:36:08 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 18:36:08 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 18:36:08 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 18:36:08 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 18:36:08 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 18:36:08 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-22 19:00:08 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (7.1ms)
+ERROR: compiling _app_views_layouts_application_html_erb__717861458_85250020 RAISED /home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:7: syntax error, unexpected '<'
+...buffer.append= ( yield :title></title>
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: unknown regexp options - app
+unmatched close parenthesis: /title>
+   
+   <!--
+   Let's talk about the above statementyield brings
+   in hash title from the current page relies on the definition of the page title
+   -->
+  
+  
+  <%= stylesheet_link_tag    "application", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <!-- links the css file /
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+.../stylesheets/application.css to -->
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:30: unknown regexp options - bdy
+unmatched close parenthesis: /head>
+<body>
+
+');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+</
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:31: syntax error, unexpected '<'
+</html>
+ ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:31: unterminated regexp meets end of file
+Function body:           def _app_views_layouts_application_html_erb__717861458_85250020(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<!DOCTYPE html>
+<html>
+<head>
+  
+  
+  
+  <title>Ruby on Rails Tutorial Sample | ');@output_buffer.append= ( yield :title></title>
+   
+   <!--
+   Let's talk about the above statementyield brings
+   in hash title from the current page relies on the definition of the page title
+   -->
+  
+  
+  <%= stylesheet_link_tag    "application", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <!-- links the css file /app/assets/stylesheets/application.css to -->
+
+
+
+
+
+
+  ');@output_buffer.append= ( javascript_include_tag "application" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  ');@output_buffer.append= ( csrf_meta_tags );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</head>
+<body>
+
+');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+</body>
+</html>
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `module_eval'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `compile'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `compile!'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:144:in `block in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:125:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:88:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:167:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:414:in `_run__454576530__process_action__1032170708__callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:121:in `process'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:45:in `process'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal.rb:203:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal.rb:246:in `block in action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:612:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/query_cache.rb:64:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `_run__739725071__call__478478511__callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:7: syntax error, unexpected '<'
+...buffer.append= ( yield :title></title>
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: unknown regexp options - app
+unmatched close parenthesis: /title>
+   
+   <!--
+   Let's talk about the above statementyield brings
+   in hash title from the current page relies on the definition of the page title
+   -->
+  
+  
+  <%= stylesheet_link_tag    "application", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <!-- links the css file /
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+.../stylesheets/application.css to -->
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:30: unknown regexp options - bdy
+unmatched close parenthesis: /head>
+<body>
+
+');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+</
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:31: syntax error, unexpected '<'
+</html>
+ ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:31: unterminated regexp meets end of file):
+    4:   
+    5:   
+    6:   
+    7:   <title>Ruby on Rails Tutorial Sample | <%= yield :title></title>
+    8:    
+    9:    <!--
+    10:    Let's talk about the above statementyield brings
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.13) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.13) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.13) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.13) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.13) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__454576530__process_action__1032170708__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__739725071__call__478478511__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-22 19:04:09 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+ERROR: compiling _app_views_layouts_application_html_erb__717861458_85250020 RAISED /home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:7: syntax error, unexpected '<'
+...buffer.append= ( yield :title></title>
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: unknown regexp options - app
+unmatched close parenthesis: /title>
+   
+   <!--
+   Let's talk about the above statementyield brings
+   in hash title from the current page relies on the definition of the page title
+   -->
+  
+  
+  <%= stylesheet_link_tag    "application", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <!-- links the css file /
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+.../stylesheets/application.css to -->
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:30: unknown regexp options - bdy
+unmatched close parenthesis: /head>
+<body>
+
+');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+</
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:31: syntax error, unexpected '<'
+</html>
+ ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:31: unterminated regexp meets end of file
+Function body:           def _app_views_layouts_application_html_erb__717861458_85250020(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<!DOCTYPE html>
+<html>
+<head>
+  
+  
+  
+  <title>Ruby on Rails Tutorial Sample | ');@output_buffer.append= ( yield :title></title>
+   
+   <!--
+   Let's talk about the above statementyield brings
+   in hash title from the current page relies on the definition of the page title
+   -->
+  
+  
+  <%= stylesheet_link_tag    "application", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <!-- links the css file /app/assets/stylesheets/application.css to -->
+
+
+
+
+
+
+  ');@output_buffer.append= ( javascript_include_tag "application" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  ');@output_buffer.append= ( csrf_meta_tags );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</head>
+<body>
+
+');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+</body>
+</html>
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `module_eval'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `compile'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `compile!'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:144:in `block in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:125:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:88:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:167:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:414:in `_run__454576530__process_action__1032170708__callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:121:in `process'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:45:in `process'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal.rb:203:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal.rb:246:in `block in action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:612:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/query_cache.rb:64:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `_run__739725071__call__478478511__callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:7: syntax error, unexpected '<'
+...buffer.append= ( yield :title></title>
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: unknown regexp options - app
+unmatched close parenthesis: /title>
+   
+   <!--
+   Let's talk about the above statementyield brings
+   in hash title from the current page relies on the definition of the page title
+   -->
+  
+  
+  <%= stylesheet_link_tag    "application", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <!-- links the css file /
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting ')'
+.../stylesheets/application.css to -->
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:16: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:30: unknown regexp options - bdy
+unmatched close parenthesis: /head>
+<body>
+
+');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+</
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:31: syntax error, unexpected '<'
+</html>
+ ^
+/home/arroyoedd/rails/sample_app/app/views/layouts/application.html.erb:31: unterminated regexp meets end of file):
+    4:   
+    5:   
+    6:   
+    7:   <title>Ruby on Rails Tutorial Sample | <%= yield :title></title>
+    8:    
+    9:    <!--
+    10:    Let's talk about the above statementyield brings
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.13) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.13) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.13) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.13) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.13) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__454576530__process_action__1032170708__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__739725071__call__478478511__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-22 19:05:17 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 19:05:17 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 19:05:17 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 19:05:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 19:05:17 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 19:05:17 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 19:05:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-22 19:39:33 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 61ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 19:39:33 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 19:39:33 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 19:39:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 19:39:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 19:39:33 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 19:39:33 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-22 19:40:20 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 19:40:20 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 19:40:20 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 19:40:20 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 19:40:20 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 19:40:20 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 19:40:20 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-06-22 19:42:40 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 19:42:40 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 19:42:40 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 19:42:40 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 19:42:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 19:42:40 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 19:42:40 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-06-22 19:53:25 -0500
+Processing by StaticPagesController#help as HTML
+ERROR: compiling _app_views_static_pages_help_html_erb___967751087_84139770 RAISED /home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ',', expecting ')'
+...putBuffer.new; provide (:title, 'Help') 
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...r.new; provide (:title, 'Help') 
+...                               ^
+Function body:           def _app_views_static_pages_help_html_erb___967751087_84139770(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/help";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; provide (:title, 'Help') 
+@output_buffer.safe_concat('
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ruby on Rails Tutorial Sample App | ');@output_buffer.append= ( yield :title);@output_buffer.safe_concat('</title>
+	</head>
+
+
+<body>
+
+<h1>Help</h1>
+
+<p>Get help on the Ruby on Rails Tutorial at the 
+<a href="http://railstutorial.org/help" >Rails Tutorial Help Page</a>
+To get help on this sample app, see the
+<a href="http://railstutorial.org/book" >Rails Tutorial Book</a>
+</p>
+</body>
+
+</html>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `module_eval'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `compile'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `compile!'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:144:in `block in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:125:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:88:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:167:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:414:in `_run__454576530__process_action__180780286__callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:121:in `process'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:45:in `process'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal.rb:203:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal.rb:246:in `block in action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:612:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/query_cache.rb:64:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `_run__739725071__call__478478511__callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered static_pages/help.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (/home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ',', expecting ')'
+...putBuffer.new; provide (:title, 'Help') 
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...r.new; provide (:title, 'Help') 
+...                               ^):
+    1: <% provide (:title, 'Help') %>
+    2: 
+    3: 	<!DOCTYPE html>
+    4: <html>
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.13) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.13) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.13) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.13) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.13) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__454576530__process_action__180780286__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__739725071__call__478478511__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-06-22 19:54:07 -0500
+Processing by StaticPagesController#help as HTML
+ERROR: compiling _app_views_static_pages_help_html_erb___967751087__626871058 RAISED /home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ',', expecting ')'
+...putBuffer.new; provide (:title, 'Help') 
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...r.new; provide (:title, 'Help') 
+...                               ^
+Function body:           def _app_views_static_pages_help_html_erb___967751087__626871058(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/help";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; provide (:title, 'Help') 
+@output_buffer.safe_concat('
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ruby on Rails Tutorial Sample App | ');@output_buffer.append= ( yield (:title) );@output_buffer.safe_concat('</title>
+	</head>
+
+
+<body>
+
+<h1>Help</h1>
+
+<p>Get help on the Ruby on Rails Tutorial at the 
+<a href="http://railstutorial.org/help" >Rails Tutorial Help Page</a>
+To get help on this sample app, see the
+<a href="http://railstutorial.org/book" >Rails Tutorial Book</a>
+</p>
+</body>
+
+</html>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `module_eval'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `compile'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `compile!'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:144:in `block in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:125:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:88:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:167:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:414:in `_run__454576530__process_action__180780286__callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:121:in `process'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:45:in `process'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal.rb:203:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal.rb:246:in `block in action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:612:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/query_cache.rb:64:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `_run__739725071__call__478478511__callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered static_pages/help.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (/home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ',', expecting ')'
+...putBuffer.new; provide (:title, 'Help') 
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...r.new; provide (:title, 'Help') 
+...                               ^):
+    1: <% provide (:title, 'Help') %>
+    2: 
+    3: 	<!DOCTYPE html>
+    4: <html>
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.13) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.13) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.13) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.13) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.13) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__454576530__process_action__180780286__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__739725071__call__478478511__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-06-22 19:56:03 -0500
+Processing by StaticPagesController#help as HTML
+ERROR: compiling _app_views_static_pages_help_html_erb___967751087__627507358 RAISED /home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ',', expecting ')'
+...putBuffer.new; provide (:title, 'Help') 
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...r.new; provide (:title, 'Help') 
+...                               ^
+Function body:           def _app_views_static_pages_help_html_erb___967751087__627507358(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/help";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; provide (:title, 'Help') 
+@output_buffer.safe_concat('
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ruby on Rails Tutorial Sample App | ');@output_buffer.append= ( yield (:title) );@output_buffer.safe_concat('</title>
+	</head>
+
+
+<body>
+
+<h1>Help</h1>
+
+<p>Get help on the Ruby on Rails Tutorial at the 
+<a href="http://railstutorial.org/help" >Rails Tutorial Help Page</a>
+To get help on this sample app, see the
+<a href="http://railstutorial.org/book" >Rails Tutorial Book</a>
+</p>
+</body>
+
+</html>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `module_eval'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `compile'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `compile!'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:144:in `block in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:125:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:88:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:167:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:414:in `_run__454576530__process_action__180780286__callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:121:in `process'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:45:in `process'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal.rb:203:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_controller/metal.rb:246:in `block in action'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:612:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/query_cache.rb:64:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `_run__739725071__call__478478511__callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered static_pages/help.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (/home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ',', expecting ')'
+...putBuffer.new; provide (:title, 'Help') 
+...                               ^
+/home/arroyoedd/rails/sample_app/app/views/static_pages/help.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...r.new; provide (:title, 'Help') 
+...                               ^):
+    1: <% provide (:title, 'Help') %>
+    2: 
+    3: 	<!DOCTYPE html>
+    4: <html>
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.13) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.13) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.13) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.13) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.13) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__454576530__process_action__180780286__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__739725071__call__478478511__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/arroyoedd/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/arroyoedd/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-06-22 19:56:41 -0500
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 19:56:41 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 19:56:41 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 19:56:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 19:56:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 19:56:41 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 19:56:41 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2013-06-22 19:57:22 -0500
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 19:57:23 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 19:57:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 19:57:23 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 19:57:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 19:57:23 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 19:57:23 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-06-22 19:59:20 -0500
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 19:59:20 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 19:59:20 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 19:59:20 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 19:59:20 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 19:59:20 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 19:59:20 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-06-22 19:59:41 -0500
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 19:59:41 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 19:59:41 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 19:59:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 19:59:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 19:59:41 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 19:59:41 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-06-22 20:00:40 -0500
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 20:00:41 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 20:00:41 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 20:00:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 20:00:41 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 20:00:41 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 20:00:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2013-06-22 20:02:58 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 20:02:58 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 20:02:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 20:02:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 20:02:58 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 20:02:58 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 20:02:58 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2013-06-22 20:03:31 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 20:03:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 20:03:31 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 20:03:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 20:03:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 20:03:31 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 20:03:31 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2013-06-22 20:03:51 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 20:03:51 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 20:03:51 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 20:03:51 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 20:03:51 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 20:03:51 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 20:03:51 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2013-06-22 20:04:53 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 20:04:53 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 20:04:53 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 20:04:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 20:04:53 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 20:04:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 20:04:53 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2013-06-22 20:05:22 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 20:05:22 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 20:05:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-06-22 20:05:22 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 20:05:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 20:05:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-06-22 20:05:22 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)

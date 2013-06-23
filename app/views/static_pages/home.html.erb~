@@ -1,5 +1,15 @@
+<% provide(:title, 'Home') %>
+<!-- Rails calls the provide function and associates  the string Home with the label title-->
+
+
+
+
+
 <h1>Sample App</h1>
 
-<p>This is the home page for the 
+
+
+<p>This is the home page for the <%= yield(:title) %>
 <a href="http://railstutorial.org/" >Ruby on Rails Tutorial</a>
+sample application
 </p>

@@ -1,0 +1,19 @@
+<% provide :title, 'Contact'%>
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ruby on Rails Tutorial Sample App | <%= yield :title%></title>
+	</head>
+
+
+<body>
+
+<h1>s<%= yield :title%></h1>
+
+<p>Get help on the Ruby on Rails Tutorial at the 
+<a href="http://railstutorial.org/contact" >Rails Tutorial Help Page</a>
+
+</p>
+</body>
+
+</html>
