@@ -1,13 +1,39 @@
 SampleApp::Application.routes.draw do
-  get "static_pages/home"
+  
+  get "users/new"
 
-  get "static_pages/help"
+   root to: 'static_pages#home'
+   #just routing to home
+	match '/help', to: 'static_pages#help'
+	match '/contact', to: 'static_pages#contact'
+	match '/about', to: 'static_pages#about'
+	match '/', to: 'static_pages#home'#root_path and root_url created 
+	match '/signup', to: 'users#new'#get "users/new"
+	
+	
+	#match arranges both for a valid page at /help and a named route called help_path and it creates help_url => 'http://localhost:3000/help'
+	#but the root to page is a little different
+	
+		
+	#the above code does the exact same thing as below
+	#except when typing in url of your browser we would just type in 127.0.0.3000/help instead of 127.0.0.3000:static_pages/help 
   
-  get "static_pages/about"
   
-  get "static_pages/contact"
+  
+  
+  #get "static_pages/home"
+
+  #get "static_pages/help"
+  
+  #get "static_pages/about"
+  
+  #get "static_pages/contact"
   #get is the HTTP request
   #"static_pages/home is the URI
+
+	
+
+
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

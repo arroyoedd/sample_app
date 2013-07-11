@@ -1,15 +1,23 @@
-<% provide(:title, 'Home') %>
+<% provide(:title, '') %>
 <!-- Rails calls the provide function and associates  the string Home with the label title-->
 
+<div class="center hero-unit">
+
+<h1>Welcome to the Sample App</h1>
+
+<h2>This is the Home page for the 
+<a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
+sample application</h2>>
 
 
+<%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary"%>
 
+</div>
 
-<h1>Sample App</h1>
+<%= link_to image_tag("rails.png", alt: "Rails"),
+'http://rubyonrails.org/' %>
+<!--the embedded ruby code above produces this html statement...
+<img alt="Rails" src="/assests/rails.png" />
+alt attribute is displayed if there is no image
+-->
 
-
-
-<p>This is the home page for the <%= yield(:title) %>
-<a href="http://railstutorial.org/" >Ruby on Rails Tutorial</a>
-sample application
-</p>
