@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '2.0.0'
-
+gem 'bcrypt-ruby', '3.0.1'#for encrypted passwords
 
 
 # Bundle edge Rails instead:
@@ -11,7 +11,7 @@ gem 'bootstrap-sass', '2.0.0'
 group :development, :test do
  gem 'sqlite3'
  gem 'rspec-rails'
- 
+ gem 'annotate', '~> 2.4.1.beta' 
  
 end
 #the above code will use the sqlite3 gem for development
